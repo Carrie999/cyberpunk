@@ -1,21 +1,22 @@
 {
 	"name": "cyberpunk-2020",
-	"displayName": "cyberpunk-2020",
+	"displayName": "Cyberpunk 2020",
 	"description": "A cyberpunk-inspired colour theme to satisfy your neon dreams",
-	"version": "0.1.0",
+	"version": "0.1.4",
 	"author": "yajing pang",
-	"publisher": "carrie999",
+	"publisher": "Carrie999",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/carrie999/cyberpunk"
+		"url": "https://github.com/Carrie999/cyberpunk"
 	},
 	"engines": {
 		"vscode": "^1.33.0"
 	},
 	"keywords": [
 		"retro",
-		"80s"
+		"80s",
+		"cyberpunk"
 	],
 	"categories": [
 		"Themes"
@@ -29,7 +30,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "cyberpunk",
+				"label": "Cyberpunk",
 				"uiTheme": "vs-dark",
 				"path": "./themes/synthwave-color-theme.json"
 			}
@@ -49,7 +50,7 @@
 			}
 		],
 		"configuration": {
-			"title": "cyberpunk",
+			"title": "Cyberpunk 2020",
 			"properties": {
 				"synthwave84.brightness": {
 					"type": "number",
@@ -68,6 +69,6 @@
 		"semver": "^7.1.1"
 	},
 	"__metadata": {
-		"publisherDisplayName": "carrie999"
+		"publisherDisplayName": "Carrie999"
 	}
 }
